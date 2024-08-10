@@ -1,0 +1,12 @@
+n=int(input())
+f=0
+f1=-1
+f2=1
+count=0
+while(f<n):
+   print(f)
+   f=f1+f2
+   f1=f2
+   f2=f
+   count+=1
+print(f)   
