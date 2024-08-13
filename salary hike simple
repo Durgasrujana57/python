@@ -1,0 +1,12 @@
+n=int(input())
+s=int(input())
+if(s==3):
+    c=n+((15/100)*n)
+elif(s==4):
+    c=n+((7/100)*n)
+elif(s==5):
+    c=n+((5/100)*n)
+
+
+print(int(c))   
+    
