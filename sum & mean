@@ -1,0 +1,14 @@
+sum=0
+a=(input()).split(" ")
+n=0
+i=0
+while(1):
+    b=int(a[i])
+    if(b!=-1):
+        sum=sum+b
+        n=n+1
+        i=i+1
+    else:
+        break
+print("Sum of the given",n,"numbers is :",sum)
+print("Mean of the given",n,"numbers is :",format(sum/n,".2f"))
