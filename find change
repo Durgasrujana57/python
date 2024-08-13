@@ -1,0 +1,11 @@
+a=int(input())
+b=int(input())
+c=int(input())
+n=min(c//5,b)
+rem=c-(n*5)
+if(rem<=a):
+    print(rem)
+    print(n)
+else:
+    print("-1")
+
